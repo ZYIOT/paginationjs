@@ -5,6 +5,7 @@ bin-release/
 
 # Other files and folders
 .settings/
+.vscode
 node_modules/
 .idea/
 .DS_Store
