@@ -40,7 +40,9 @@
 
       initialize: function() {
         var self = this;
-
+        if(container.size() == 0){
+          return;
+        }
         // Cache attributes of current instance
         if (!container.data('pagination')) {
           container.data('pagination', {});
