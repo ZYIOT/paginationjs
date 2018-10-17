@@ -1,7 +1,7 @@
 /*
  * pagination.js 2.1.4
  * A jQuery plugin to provide simple yet fully customisable pagination.
- * https://github.com/superRaytin/paginationjs
+ * https://github.com/ZYIOT/paginationjs
  *
  * Homepage: http://pagination.js.org
  *
@@ -236,7 +236,7 @@
               }
             } else {
               if (attributes.showFirstOnEllipsisShow) {
-                html += '<li class="' + classPrefix + '-page ' + classPrefix + '-first J-paginationjs-page" data-num="1"><a href="#">1<\/a><\/li>';
+                html += '<li class="' + classPrefix + '-page ' + classPrefix + '-first J-paginationjs-page" data-num="1"><a href="' + pageLink(1) + '">1<\/a><\/li>';
               }
               html += '<li class="' + classPrefix + '-ellipsis ' + disableClassName + '"><a>' + ellipsisText + '<\/a><\/li>';
             }
